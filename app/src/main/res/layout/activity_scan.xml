@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/pur_bottom_bg"
+    >
+    <include layout="@layout/return_bar" />
+    <RelativeLayout
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_scan_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_scan_1"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+        <ImageView
+            android:id="@+id/iv_scan_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_scan_2"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+             />
+        <ImageView
+            android:id="@+id/iv_scan_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_sssss"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_scan"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:textSize="19sp"
+            android:text="stop scan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_device"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/bad"/>
+        <TextView
+            android:id="@+id/tv_device"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="22sp"
+            android:text="no devices"/>
+        <ListView
+            android:id="@+id/lv_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:dividerHeight="7dp"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@color/light_white"
+            android:background="@color/transparent"
+            android:smoothScrollbar="true">
+
+        </ListView>
+    </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BatteryLink</string>
+    <string name="unknown_device">unknown device</string>
+    <string name="scandevices">scan device</string>
+    <string name="startscan">start scan</string>
+    <string name="stopscan">stop scan</string>
+</resources>

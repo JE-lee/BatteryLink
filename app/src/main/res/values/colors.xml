@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#48575c</color>
+    <color name="blue">#41c7f5</color>
+    <color name="green">#91db40</color>
+    <color name="grey">#8d989b</color>
+    <color name="light_grey">#e6ebed</color>
+    <color name="red">#f54e5f</color>
+    <color name="yellow">#ffcc4b</color>
+    <color name="divider">#e3e9ec</color>
+    <color name="light_white">#FCFCFC</color>
+    <color name="study_grey">#f1f3f4</color>
+    <color name="pur_bottom_bg">#e6ebed</color>
+    <color name="curtain_title_bg">#e7eaeb</color>
+    <color name="line_gray">#dadada</color>
+    <color name="bar_gray">#c3d0d5</color>
+    <color name="water_middle_text">#f69988</color>
+    <color name="water_middle_green">#A8DB9E</color>
+    <color name="water_middle_gray">#A5A5A5</color>
+    <color name="water_middle_darkgreen">#63CA30</color>
+    <color name="pink">#F68CB3</color>
+    <color name="switch_black">#979797</color>
+    <color name="switch_grey">#D5D5D5</color>
+    <color name="aaaa">#AAAAAA</color>
+    <color name="little_blue">#34cbff</color>
+
+    <color name="pur_level1">#46caf4</color>
+    <color name="pur_level2">#89c9c6</color>
+    <color name="pur_level3">#e1c48c</color>
+    <color name="pur_level4">#feb87c</color>
+    <color name="pur_level5">#fea485</color>
+    <color name="pur_level6">#fe9394</color>
+
+    <color name="little_gray">#a6a8ab</color>
+    <color name="dark_text_blue">#1e4d7b</color>
+    <color name="water_pur_grey">#cfd1d1</color>
+    <color name="water_pur_yellew_text">#FD782f</color>
+    <color name="water_blue">#34cbff</color>
+    <color name="water_zi_yellew">#353535</color>
+    <color name="curtain_light_blue">#44bff8</color>
+    <color name="curtain_dark_blue">#47aaee</color>
+    <color name="curtain_little_white">#abd3f6</color>
+    <color name="bblue">#0099CC</color>
+    <color name="primary_text_disabled_material_dark">#4Dffffff</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+</resources>

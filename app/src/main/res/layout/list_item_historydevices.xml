@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="5dp"   android:background="@drawable/bg_white2">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/devices"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:padding="3dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:padding="2dp"
+            android:textSize="19sp"
+            android:text="devicename"
+            android:textColor="@color/black"
+
+            />
+        <TextView
+            android:id="@+id/tv_last_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:padding="2dp"
+            android:textSize="16sp"
+            android:text="devicename"
+            android:textColor="@color/grey"
+            android:layout_marginBottom="2dp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/connect"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"/>
+</LinearLayout>
